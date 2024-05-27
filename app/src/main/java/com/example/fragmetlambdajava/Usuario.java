@@ -14,7 +14,7 @@ public class Usuario implements Serializable {
     private String password;
     private String phone;
 
-    public Usuario(String userName, String fgit irstName, String lastName, String email, String password, String phone) {
+    public Usuario(String userName, String firstName, String lastName, String email, String password, String phone) {
         this.userName = userName;
         this.firstName = firstName;
         this.lastName = lastName;
